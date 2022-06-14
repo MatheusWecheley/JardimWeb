@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-image: url('./imgs/Site-background-light.jpg');
+}
+
+h3 {
+    font-weight: bold;
+    color: #ff01c1;
+    margin-top: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #00e1ff;
+}
+
+
+.page-wrapper {
+    font-size: 1.2em;
+    background: rgba(122, 195, 194, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.4px);
+    -webkit-backdrop-filter: blur(9.4px);
+    border: 1px solid rgba(122, 195, 194, 0.11);
+    font-weight: bold;
+    color: #00e1ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 20em;
+    padding: 2em;
+}
+
+.intro {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.header h1{
+    background: #1FCFCF;
+    background: linear-gradient(to right, #1FCFCF 43%, #75CF68 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    font-family: 'Caveat Brush', cursive;
+}
+
+.header {
+    color: #00e1ff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main {
+    color: white;
+    margin-top: 2rem;
+}
+
+.design-selection ul li {
+    list-style: none;
+}
+
+.design-resources a {
+    color: white;
+}
+
+.design-resources ul li {
+    list-style: none;
+    
+}
+
+.design-archives ul li{
+    list-style: none;
+}
